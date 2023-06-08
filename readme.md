@@ -24,11 +24,7 @@ Todas as versões disponíveis podem ser encontradas [no site oficial]( https://
 
 7. Abra o docker e verifique os logs do Container
 
-![](../../../../../var/folders/_j/1sgsv5jd5t9gt0n3jl_3y66w0000gn/T/TemporaryItems/NSIRD_screencaptureui_z3tSfE/Screenshot 2023-06-08 at 14.42.14.png)
-
 8. Abra o link do selenium grid (disponível no topo dentro do docker)
-
-![](/Users/viniciuspessoni/Desktop/Screenshot 2023-06-08 at 14.43.09.png)
 
 9. Checa os detalhes do broser dentro da UI do grid
   
@@ -40,7 +36,6 @@ Todas as versões disponíveis podem ser encontradas [no site oficial]( https://
    "se:noVncPort":7900,
    "se:vncEnabled":true} `
 
-![](/Users/viniciuspessoni/Desktop/Screenshot 2023-06-08 at 14.44.16.png)
 
 10. Coloca exatamente o nome do browser, a versão e a plataforma no seu código java nas propriedades pra criar a conexão com o driver
 
