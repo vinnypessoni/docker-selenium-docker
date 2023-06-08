@@ -1,14 +1,8 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
-
-
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -43,6 +37,7 @@ public class SeleniumDockerPOC {
 
 
     @Test
+    @DisplayName("Verifica título do site")
     public void verificaTitulo(){
 
         String tituloEsperado = "TESTER GLOBAL\n" +
@@ -59,7 +54,7 @@ public class SeleniumDockerPOC {
 
     }
 
-    @AfterEach
+    @AfterAll
     public void tearDown(){
         if(driver != null) {
             driver.quit();
