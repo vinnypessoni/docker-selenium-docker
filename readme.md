@@ -5,17 +5,19 @@
 
 2. Baixe a imagem docker que contem o selenium
 
-   docker pull selenium/standalone-chrome
+      docker pull selenium/standalone-chrome
 
 3. Verifique se a imagem foi realmente baixada
-
-   docker images
+   
+      docker images
 
 4. Execute o container do docker
-   docker run -d -p 4445:4444 -v /dev/shm:/dev/shm selenium/standalone-chrome
+
+      docker run -d -p 4445:4444 -v /dev/shm:/dev/shm selenium/standalone-chrome
 
 5. Verifique se o container está rodando
-   docker ps
+
+      docker ps
 
 6. Confira a versão que você está importando do Selenium  no seu build.gradle
  
