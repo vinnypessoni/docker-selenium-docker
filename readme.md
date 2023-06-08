@@ -47,10 +47,11 @@ OBS:
 Como está usando o selenium dentro do docker, não precisa ter nenhum driver instalado na sua máquina
 
 
-References
-https://www.lambdatest.com/blog/run-selenium-tests-in-docker/
-https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/remote/package-summary.html
-https://github.com/razvanvancea/learnwithrv-youtube-projects/tree/master/selenium-java-docker-container-standalone
-https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-https://www.selenium.dev/documentation/grid/
-https://medium.com/@iamfaisalkhatri/parallel-execution-of-tests-using-selenium-grid-4-with-docker-compose-2dc243f4fe8b
+#### References
+
+* https://www.lambdatest.com/blog/run-selenium-tests-in-docker/
+* https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/remote/package-summary.html
+* https://github.com/razvanvancea/learnwithrv-youtube-projects/tree/master/selenium-java-docker-container-standalone
+* https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+* https://www.selenium.dev/documentation/grid/
+* https://medium.com/@iamfaisalkhatri/parallel-execution-of-tests-using-selenium-grid-4-with-docker-compose-2dc243f4fe8b
